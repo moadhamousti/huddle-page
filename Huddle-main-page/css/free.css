@@ -1,0 +1,259 @@
+/* IMPORTING FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col-1{
+    flex-basis: 50%;
+    flex-grow: 1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(../img/image.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: inherit;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.col-2{
+    flex-basis: 50%;
+    flex-grow: 1;
+    padding: 50px 80px;
+}
+
+
+.logo{
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.col-1 ul{
+    list-style: none;
+}
+
+.col-1 ul li{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.col-1 ul li img{
+    width: 20px;
+    margin-right: 15px;
+    color: hsl(322, 100%, 66%);
+}
+
+h2{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: -23px;
+}
+
+h2 img{
+    width: 26px;
+    margin-right: 10px;
+}
+
+form{
+    width: 400px;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+label{
+    display: block;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #999;
+    cursor: pointer;
+}
+
+label span{
+    flex: 1;
+    margin-left: 15px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #333;
+}
+
+label span small{
+    font-size: 12px;
+}
+
+input[type="radio"]:checked + span{
+    color: hsl(322, 100%, 66%);;
+}
+
+input[type="text"],input[type="email"]{
+    width: 100%;
+    background: transparent;
+    padding: 7px 10px;
+    outline: none;
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 4px;
+    margin: 12px 0;
+}
+
+form button {
+    background: hsl(322, 100%, 66%);
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 50px;
+    margin: 20px 0;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+form button:hover{
+    opacity: 0.7;
+}
+
+
+
+
+/* Adjusting Header For Mobile devices */
+@media (max-width: 991px) {
+    .col-1 {
+        padding: 30px;
+    }
+
+    .col-2 {
+        padding: 30px;
+    }
+}
+
+/* Small devices */
+@media (max-width: 575px) {
+    .col-1 {
+        padding: 20px;
+        background-position: top;
+        text-align: center;
+    }
+
+    .col-2 {
+        padding: 20px;
+    }
+
+    .col-1 ul li {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .col-1 ul li img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        margin-top: -10px;
+    }
+
+    form {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* Medium devices */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .col {
+        flex-basis: 50%;
+    }
+
+    .col-1 {
+        background-position: center;
+    }
+}
+
+/* Large devices */
+@media (min-width: 992px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .col {
+        flex-basis: 50%;
+    }
+
+    .col-1 {
+        background-position: center;
+    }
+}
+
+/* Extra large */
+@media (min-width: 1200px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .col {
+        flex-basis: 50%;
+    }
+
+    .col-1 {
+        background-position: center;
+    }
+}
+
+/* Extra large */
+@media (min-width: 1400px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .col {
+        flex-basis: 50%;
+    }
+
+    .col-1 {
+        background-position: center;
+    }
+}
