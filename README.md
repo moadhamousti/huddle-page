@@ -2,16 +2,21 @@
 
 ### Features 🔥 :
 
-- Responsive.
-- Smooth Scrolling.
-- Animated.
+☑️ - Responsive.
+
+☑️ - Smooth Scrolling.
+
+☑️ - Animated.
 
 ### Tools 🛠️ :
 
-  - GSAP.
-  - ScrollTrigger
-  - ScrollSmoother.
-  - TweenMax.
+☑️ - GSAP.
+  
+☑️ - ScrollTrigger.
+  
+☑️ - ScrollSmoother.
+  
+☑️ - TweenMax.
  
  ### Screen Shoot 📷 :
 
