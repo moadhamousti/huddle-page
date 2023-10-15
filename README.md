@@ -1,6 +1,6 @@
 # huddle-page 🌐 :
 
-### Features 🔥:
+### Features 🔥 :
 
 ☑️ - Responsive.
 
