@@ -1,4 +1,4 @@
-# Huddle page 🌐 :
+# Huddle Page 🌐 :
 
 
 ### Features 🔥 :
