@@ -1,5 +1,5 @@
 TweenMax.from(".labels", 1, {
-	opacity: 0,
+	opacity: 0, 
 	delay:1,
 	y: 20,
 	ease: Expo.easeInOut
