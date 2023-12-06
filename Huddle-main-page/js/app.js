@@ -1,4 +1,4 @@
-// TO THE TOP BUTTON 
+// TO THE TOP BUTTON  
 
 const toTop = document.querySelector(".to-top");
 
